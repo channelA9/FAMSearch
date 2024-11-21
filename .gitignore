@@ -1,1 +1,3 @@
 .env
+document_embeddings.csv
+sentence_embeddings.csv
