@@ -1,7 +1,7 @@
 # chatbot.py
 import os
 import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
 import json
@@ -26,7 +26,7 @@ MAX_RESPONSE_TOKENS = 500
 CHAT_PROVIDER = 'google'  # openai google anthropic cohere
 CHAT_MODEL = 'gemini-1.5-flash'  # gpt-4o gpt-4o-mini gemini-1.5-pro gemini-1.5-flash claude-3-5-sonnet-latest claude-3-5-haiku-latest command-r-plus command-r
 
-load_dotenv()
+# load_dotenv()
 
 class EmbeddingService:
     def __init__(self, provider, model_name):
