@@ -1,7 +1,7 @@
 # chatbot.py
 import os
 import time
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
 import json
